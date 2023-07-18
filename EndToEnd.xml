@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes">
+    <listeners>
+        <listener class-name="utilities.AnnotationTransformer"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="End to End Test">
+        <classes>
+            <class name="testScripts.HC_TC_01"/>
+            <class name="testScripts.HC_TC_02"/>
+            <class name="testScripts.HT_TC_03"/>
+            <class name="testScripts.HT_TC_04"/>
+            <class name="testScripts.HT_TC_06"/>
+            <class name="testScripts.HT_TC_07"/>
+            <class name="testScripts.HT_TC_08"/>
+            <class name="testScripts.HT_TC_09"/>
+            <class name="testScripts.HT_TC_10"/>
+            <class name="testScripts.HT_TC_11"/>
+            <class name="testScripts.HT_TC_12"/>
+            <class name="testScripts.HT_TC_13"/>
+            <class name="testScripts.HT_TC_14"/>
+            <class name="testScripts.HT_TC_15"/>
+
+        </classes>
+    </test>
+</suite>
